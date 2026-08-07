@@ -1,0 +1,10 @@
+name: Windows Test
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: windows-latest
+    steps:
+      - run: echo "Windows runner funciona"
